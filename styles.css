@@ -1,1 +1,154 @@
 /* css styles */
+:root {
+  --priblue: #0081A7; 
+  --secblue: #0CC8D2;
+  --background: #FDFCDC;
+  --prired: #F07167;
+  --secred: #FED9B7;
+  --text: #2E1A1F;
+}
+
+.navbar{
+  background-color: var(--priblue);
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+
+.list.grid{
+  border: 4px solid var(--secred);
+  background-color: var(--prired);
+  padding: 12px;
+}
+
+.card-body{
+  background-color: var(--secred);
+}
+
+a:hover{
+  background-color: var(--prired);
+  color: var(--secred);
+}
+
+.quarto-title{
+  color: var(--priblue);
+}
+
+#toc-title{
+  color: var(--prired);
+}
+
+.active :not .tab-pane{
+    border-left: 1px solid var(--prired);
+    color: var(--prired) !important;
+}
+
+h1.level1{
+  color: var(--priblue);
+}
+
+blockquote{
+  border-left: .3rem solid var(--prired);
+}
+
+.blockquote{
+  color: var(--prired);
+}
+
+.callout{
+  background-color: var(--secred);
+}
+
+div.callout-important.callout {
+    border-left-color: var(--prired);
+}
+
+div.callout-important.callout-style-default>.callout-header{
+  background-color: var(--secred);
+}
+
+div.callout-note.callout {
+  border-left-color: var(--prired);
+}
+
+div.callout-note.callout-style-default>.callout-header{
+  background-color: var(--prired);
+}
+
+.callout-caption-container{
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.callout-header{
+  color: var(--background);
+}
+
+.sourceCode{
+  background-color: var(--secblue);
+}
+
+div.sourceCode{
+  border: 4px solid var(--primary);
+  background-color: var(--secblue);
+  margin-top: 0em;
+  border-radius: 0em;
+}
+
+.cell-output{
+  color: var(--background);
+  background-color: var(--priblue);
+  border-radius: .25rem;
+}
+
+details>summary{
+  background-color: var(--priblue);
+  color: var(--background);
+}
+
+.figure-img:not(.glimpse){
+  border: 4px solid var(--prired)
+}
+
+.img-fluid:not(.glimpse){
+  border: 4px solid var(--prired)
+}
+
+code{
+  color: var(--priblue);
+  border-radius: .25rem;
+}
+
+a{
+  color: var(--priblue);
+}
+
+p {
+  font-size: 1.1em;
+}
+
+th, td {
+  font-size: 0.8em;
+  vertical-align: middle;
+}
+
+figcaption{
+  align-content: center;
+}
+
+.navlink{
+  color: var(--priblue) !important;
+}
+
+tr:nth-child(even) {
+  background-color: var(--secred);
+}
+
+tr.header{
+  background-color: var(--secred);
+}
+
+th, td {
+  font-size: 0.8em;
+  vertical-align: middle;
+}
