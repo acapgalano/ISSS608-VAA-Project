@@ -44,7 +44,7 @@ The data to be used was acquired from [Kaggle](https://www.kaggle.com/datasets/v
 
 ### Data Composition
 
-Using the `glimpse()` function of
+Using the `glimpse()` function of the **`dplyr`** package, the following figures contain the columns and sample values for the mentioned datasets.
 
 ```{r}
 #| echo: false
