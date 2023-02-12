@@ -1,9 +1,30 @@
 ---
 title: "About"
+toc: false
 ---
 
-About this site
+# Meet the Group!
 
-```{r}
-1 + 1
-```
+::: columns
+::: {.column width="30%"}
+## Anica Galano
+
+![](images/image-79997482.png){fig-align="center" width="200"}
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+## Bryant Lee
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+## Zhu Fangyuan
+
+![](images/image-224013672.png){fig-align="center" width="200"}
+:::
+:::
