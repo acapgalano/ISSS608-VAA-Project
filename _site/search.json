@@ -32,7 +32,7 @@
     "href": "proposal.html#data",
     "title": "Proposal: Exploring Trends in Video Games Distributed by Steam",
     "section": "📁 Data",
-    "text": "📁 Data\n\nData Source\nThe data to be used was acquired from Kaggle updated last 2022. It is comprised of two datasets namely, steamspy_data.csv and steam_app_data.csv which will be used in this proposed study and Shiny app.\n\n\nData Composition\nUsing the glimpse() function of\n\n\n\n\nsteam_app_data.csv\n\n\n\nsteamspy_data.csv\n\n\n\n\n\n\n\n🖊️ NOTE!\n\n\n\nThe column information provided above are from the raw datasets. Further data wrangling and extraction will be performed in the process of the study and Shiny app creation. For example, the labels in the ‘tags’ column need to be extracted from the its original string. Another thing to address is the all null values in several other columns."
+    "text": "📁 Data\n\nData Source\nThe data to be used was acquired from Kaggle updated last 2022. It is comprised of two datasets namely, steamspy_data.csv and steam_app_data.csv which will be used in this proposed study and Shiny app.\n\n\nData Composition\nUsing the glimpse() function of the dplyr package, the following figures contain the columns and sample values for the mentioned datasets.\n\n\n\n\nsteam_app_data.csv\n\n\n\nsteamspy_data.csv\n\n\n\n\n\n\n\n🖊️ NOTE!\n\n\n\nThe column information provided above are from the raw datasets. Further data wrangling and extraction will be performed in the process of the study and Shiny app creation. For example, the labels in the ‘tags’ column need to be extracted from the its original string. Another thing to address is the all null values in several other columns."
   },
   {
     "objectID": "proposal.html#related-works",
