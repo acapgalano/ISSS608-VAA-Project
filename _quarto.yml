@@ -8,7 +8,13 @@ website:
       - href: index.qmd
         text: Home
       - href: proposal.qmd
-        text: Proposal
+        text: Overview
+      - href: userguide.qmd
+        text: User Guide
+      - href: poster.qmd
+        text: Poster
+      - href: https://github.com/acapgalano/ISSS608-VAA-ProjectApp
+        text: Github
       - about.qmd
 
 format:

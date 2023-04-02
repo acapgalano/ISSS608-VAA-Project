@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Meet the Group!\n\n\ntetst\n\ntest\n\ntest"
-  },
-  {
-    "objectID": "proposal.html#introduction",
-    "href": "proposal.html#introduction",
-    "title": "Proposal",
-    "section": "Introduction",
-    "text": "Introduction"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Let’s Play: ISSS608 Visual Analytics and Applications 🎮",
-    "section": "",
-    "text": "Testing quote\n\n\n\n\n\n\n\nTest\n\n\n\ntest"
-  },
-  {
     "objectID": "proposal.html",
     "href": "proposal.html",
     "title": "Proposal: Exploring Trends in Video Games Distributed by Steam",
@@ -28,18 +7,18 @@
     "text": "In 2021, the video game market was estimated to be $195.65 billion and is expected to expand at a compound annual growth rate (CAGR) of 12.9% from 2022 to 2030. In comparison, One of the fastest growing categories is the digital PC games market which is estimated to grow from $10.86 billion in 2022 to $12.67 billion in 2023 at a compound annual growth rate (CAGR) of 16.7%. The COVID-19 pandemic contributed to the industry’s increased growth due to people being forced to remain indoors. This gave people the chance to explore more indoor activities, especially gaming. Several game developers also released their games for free online during this period.\nSteam is a major digital game distribution platform run by the Valve Corporation. It was originally released in 2003 as a way for Valve release updates for their own developed games, but eventually evolved into a publisher for third-party games. The platform accounts for 75% of the global PC games market. In 2020, Steam had 120 million active users per month, averaging 62.6 million people use Steam every day. This growth resulted in the number of hours spent playing games on Steam climbing by 50.7% year over year, and game sales increased by nearly 21.4%.\n\n\n\nThe objective of the project is to visualize the historical and current field of the online PC games. Given that Steam already accounts for 75% of the PC games market, the dataset used will be focused on games in the Steam platform. We aim to achieve insights by exploring the relationships between demand, pricing, tags and reviews. This may be of help to any third party developers wanting to publish on Steam or anyone interested in investing into the video game industry to achieve an understanding."
   },
   {
-    "objectID": "proposal.html#data",
-    "href": "proposal.html#data",
-    "title": "Proposal: Exploring Trends in Video Games Distributed by Steam",
-    "section": "📁 Data",
-    "text": "📁 Data\n\nData Source\nThe data to be used was acquired from Kaggle updated last 2022. It is comprised of two datasets namely, steamspy_data.csv and steam_app_data.csv which will be used in this proposed study and Shiny app.\n\n\nData Composition\nUsing the glimpse() function of the dplyr package, the following figures contain the columns and sample values for the mentioned datasets.\n\n\n\n\nsteam_app_data.csv\n\n\n\nsteamspy_data.csv\n\n\n\n\n\n\n\n🖊️ NOTE!\n\n\n\nThe column information provided above are from the raw datasets. Further data wrangling and extraction will be performed in the process of the study and Shiny app creation. For example, the labels in the ‘tags’ column need to be extracted from the its original string. Another thing to address is the all null values in several other columns."
-  },
-  {
     "objectID": "proposal.html#related-works",
     "href": "proposal.html#related-works",
     "title": "Proposal: Exploring Trends in Video Games Distributed by Steam",
     "section": "📚 Related Works",
     "text": "📚 Related Works\n\nSteam Data Analysis by duerkos\n\n\n\n\n\nThis study focuses on the exploratory data analysis of game ratings or reviews and the different Steam tags such as genre, software requirements, themes and others. It also explores pricing trends and geographical factors. Our study can build on some directions provided by author the and further improve on the visualizations displayed.\n\n\nExploratory Data Analysis on Steam Store Games Dataset by Alden Yuan\n\nThis article delves into Steam store data in order to investigate on the quality of the games being released. It also explores the trends of popular games. This can provide inspiration in terms of visualization methods and also in terms of possible angles of exploration."
+  },
+  {
+    "objectID": "proposal.html#data",
+    "href": "proposal.html#data",
+    "title": "Proposal: Exploring Trends in Video Games Distributed by Steam",
+    "section": "📁 Data",
+    "text": "📁 Data\n\nData Source\nThe data to be used was acquired from Kaggle updated last 2022. It is comprised of two datasets namely, steamspy_data.csv and steam_app_data.csv which will be used in this proposed study and Shiny app.\n\n\nData Composition\nUsing the glimpse() function of the dplyr package, the following figures contain the columns and sample values for the mentioned datasets.\n\n\n\n\nsteam_app_data.csv\n\n\n\nsteamspy_data.csv\n\n\n\n\n\n\n\n🖊️ NOTE!\n\n\n\nThe column information provided above are from the raw datasets. Further data wrangling and extraction will be performed in the process of the study and Shiny app creation. For example, the labels in the ‘tags’ column need to be extracted from the its original string. Another thing to address is the all null values in several other columns."
   },
   {
     "objectID": "proposal.html#methodology",
