@@ -1,5 +1,6 @@
 ---
 title: "Let's Play: The Steam Explorer App 🎮"
+toc: false
 ---
 
 ![](images/index.png){fig-align="center"}
