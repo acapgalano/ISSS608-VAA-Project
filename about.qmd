@@ -17,6 +17,8 @@ toc: false
 
 ::: {.column width="30%"}
 ## Bryant Lee
+
+![](images/bryant.jpeg){fig-align="center" width="150"}
 :::
 
 ::: {.column width="5%"}

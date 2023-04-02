@@ -1,5 +1,19 @@
 ---
-title: "Let's Play: ISSS608 Visual Analytics and Applications 🎮"
+title: "Let's Play: The Steam Explorer App 🎮"
 ---
 
 ![](images/index.png){fig-align="center"}
+
+## ▶️ Press start to continue...
+
+Welcome! Are you a game developer? Interested in investing in the gaming industry? Or maybe you're just an avid Steam user? Well, we've got the app for you!
+
+If you've ever wanted easily visualize the top games and developers of Steam, then you can easily do so in our app. We also added a special mention for indie games that deserve recognition.
+
+Ever gotten into an argument with someone because they're saying a certain game type or genre is better? Well now you can statistically prove them wrong with our Comparison Generator, which makes use of ANOVA to come to conclusions. As a developer, figure out what game type or genre is worth making and as an investor, figure out which game companies are looking a cut above the rest!
+
+And the highlight feature of the app is the Benchmark Calculator. If you have a neat game idea, but you're not sure how it'll perform, we're here to give you an idea! Figure out what KPIs your game needs to hit to be on par with similar projects!
+
+At the end of day, the idea of creating a project on game data is fun and all but it is a legitimate industry to watch. The stakes that come with people going after their passion of game development is also something to be taken seriously. With that, we salute you and hope that we can be of support in some way!
+
+GLHF!
