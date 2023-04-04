@@ -3,19 +3,33 @@ project:
 
 website:
   title: "ISSS608-VAA-Project"
+  favicon: "images/favicon.png"
   navbar:
+    title: false
+    logo: "images/logo.png"
     left:
       - href: index.qmd
         text: Home
+        icon: 'house-fill'
       - href: proposal.qmd
         text: Overview
+        icon: 'binoculars-fill'
       - href: userguide.qmd
         text: User Guide
+        icon: 'book-half'
       - href: poster.qmd
         text: Poster
+        icon: 'file-image'
+      - href: https://isss608-letsplay.shinyapps.io/ISSS608-VAA-ProjectApp/
+        text: R Shiny App
+        icon: 'controller'
+    right: 
       - href: https://github.com/acapgalano/ISSS608-VAA-ProjectApp
         text: Github
-      - about.qmd
+        icon: 'github'
+      - href: about.qmd
+        text: About
+        icon: 'info-circle-fill'
 
 format:
   html:
